@@ -1,0 +1,37 @@
+body {
+    background-color: #D89CF6;
+}
+
+.flex-container-row {
+    height: 200px;
+}
+.flex-container-row{
+    flex-direction: row;
+}
+.flex-container-col{
+    flex-direction: column;
+}
+
+.start{
+    align-items: flex-start;
+}
+.end{
+    align-items: flex-end;
+}
+.center{
+    align-items:center;
+}
+.stretch{
+    align-items: stretch;
+}
+
+.baseline div:nth-child(2){
+    font-size: 36px;
+}
+.baseline div:nth-child(4){
+    font-size: 46px;
+}
+
+.baseline{
+    align-items: baseline;
+}
